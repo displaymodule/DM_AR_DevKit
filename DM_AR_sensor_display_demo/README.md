@@ -7,19 +7,24 @@ Drive board version 1.0
 
 ## API Notes
 AR Glass development kit get sensor data and control display via USB communication with STM32.
-V1.0 version's USB device vendor id is 0x0533
+
+V1.0 version's USB device vendor id is 0x0533,
+
 Product id is 0x3333
 
 ## Sensor Demo
 we show an example how to get Gyroscope data and acordingly render the cube rotation (see CalibratedGyroscopeProvider.java).
+
 In the same time, we also provide accelerometer and compass sensor fusion and render the cube (see AccelerometerCompassProvider.java)
 
 ***NOTE:***
 Change currentOrientationProvider from CalibratedGyroscopeProvider to AccelerometerCompassProvider at CubeActivity.java, you can using accelerometer and compass sensor fusion.
 
 The default is using CalibratedGyroscopeProvider.
-//currentOrientationProvider = new AccelerometerCompassProvider(getApplicationContext(), mGlassSensor);
-currentOrientationProvider = new CalibratedGyroscopeProvider(getApplicationContext(), mGlassSensor);
+
+'
+currentOrientationProvider = new AccelerometerCompassProvider(getApplicationContext(), mGlassSensor);
+currentOrientationProvider = new CalibratedGyroscopeProvider(getApplicationContext(), mGlassSensor);'
 
 ## How to get sensor data?
 1.	The only thing you need care is the Class USBSensorCallback.

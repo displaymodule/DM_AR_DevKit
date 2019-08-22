@@ -16,6 +16,8 @@ We do not use USB device filter because the kit camera is a standard UVC Camera
 
 ## The process to get camera preview work on glass as follows:
 1.	new USBCameraListener, with onCameraOpened, onPreview, onCameraClosed, onCameraError, onCameraConfigurationChanged.
+
+```java
 USBCameraListener usbcameraListener = new USBCameraListener() {
             @Override
             public void onCameraOpened(USBCamera camera, int cameraId, int displayOrientation, boolean isMirror) {
@@ -45,10 +47,10 @@ USBCameraListener usbcameraListener = new USBCameraListener() {
                 //todo something
             }
         };
-
-2.	new USBCameraHelper, then call init(), start()
-
-usbcameraHelper = new USBCameraHelper.Builder()
+```
+2.new USBCameraHelper, then call init(), start()
+```java
+    usbcameraHelper = new USBCameraHelper.Builder()
                .Context(this.getApplication())
                .previewViewSize(new Point(mPreviewView.getMeasuredWidth(), mPreviewView.getMeasuredHeight()))
                .rotation(getWindowManager().getDefaultDisplay().getRotation())
@@ -58,13 +60,10 @@ usbcameraHelper = new USBCameraHelper.Builder()
                .build();
        usbcameraHelper.init();
        usbcameraHelper.start();
-
-
-
-
+```
 ## Use com.displaymodule.libuvccamera.usb.UsbMonitor and com.displaymodule.libuvccamera.UVCCamera for application development.
-
-1.	implement ConnectCallback for UsbMonitor
+1.implement ConnectCallback for UsbMonitor
+```java
 public interface ConnectCallback {
     /**
      * attach the device
@@ -95,7 +94,7 @@ public interface ConnectCallback {
      */
     void onDetached(UsbDevice usbDevice);
 }
+```
+2.use UsbMonitor.setConnectCallback() to set implemented callback.
 
-2.	use UsbMonitor.setConnectCallback() to set implemented callback.
-
-3.	control UVCCamera, like startPreview/stopPreview, setSharpness/getSharpness, getGamma/setGamma, getZoom/setZoom, startCapture/stopCapture etc.
+3.control UVCCamera, like startPreview/stopPreview, setSharpness/getSharpness, getGamma/setGamma, getZoom/setZoom, startCapture/stopCapture etc.
