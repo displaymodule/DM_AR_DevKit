@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<usb>
+	<!--<usb-device class="239" subclass="2" />	&lt;!&ndash; all device of UVC &ndash;&gt;-->
+	<!--&lt;!&ndash; a few android 9.0 &ndash;&gt;-->
+	<!--<usb-device class="14" subclass="9" />-->
+	<!--<usb-device class="2" subclass="0" />-->
+	<!--<usb-device class="6" subclass="-1" />-->
+	<!--<usb-device product-id="4836" vendor-id="9573" />-->
+	<!--<usb-device product-id="2229" vendor-id="1133" />-->
+	<usb-device product-id="12416" vendor-id="3804" />
+	<!--<usb-device vendor-id="0x533" product-id="0x3333"/>-->
+	<!--<usb-device class="239" subclass="2" />-->
+</usb>

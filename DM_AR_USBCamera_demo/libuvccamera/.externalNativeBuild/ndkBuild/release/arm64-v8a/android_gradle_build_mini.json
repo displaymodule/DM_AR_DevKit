@@ -1,0 +1,53 @@
+{
+  "buildFiles": [
+    "/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Android.mk",
+    "/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/zhuijunbao/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/lib PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera PROJECT_DIR\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera clean"
+  ],
+  "libraries": {
+    "usb100_static-release-arm64-v8a": {
+      "artifactName": "usb100_static",
+      "buildCommand": "/Users/zhuijunbao/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/lib -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera PROJECT_DIR\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera /Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libusb100_static.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libusb100_static.a"
+    },
+    "usb100-release-arm64-v8a": {
+      "artifactName": "usb100",
+      "buildCommand": "/Users/zhuijunbao/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/lib -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera PROJECT_DIR\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera /Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libusb100.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libusb100.so"
+    },
+    "jpeg-turbo1500_static-release-arm64-v8a": {
+      "artifactName": "jpeg-turbo1500_static",
+      "buildCommand": "/Users/zhuijunbao/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/lib -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera PROJECT_DIR\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera /Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libjpeg-turbo1500_static.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libjpeg-turbo1500_static.a"
+    },
+    "jpeg-turbo1500-release-arm64-v8a": {
+      "artifactName": "jpeg-turbo1500",
+      "buildCommand": "/Users/zhuijunbao/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/lib -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera PROJECT_DIR\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera /Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libjpeg-turbo1500.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libjpeg-turbo1500.so"
+    },
+    "uvc-release-arm64-v8a": {
+      "artifactName": "uvc",
+      "buildCommand": "/Users/zhuijunbao/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/lib -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera PROJECT_DIR\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera /Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libuvc.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libuvc.so"
+    },
+    "UVCCamera-release-arm64-v8a": {
+      "artifactName": "UVCCamera",
+      "buildCommand": "/Users/zhuijunbao/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/lib -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera PROJECT_DIR\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera /Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libUVCCamera.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libUVCCamera.so"
+    },
+    "uvc_static-release-arm64-v8a": {
+      "artifactName": "uvc_static",
+      "buildCommand": "/Users/zhuijunbao/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/lib -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera -j8 -j8 PROJECT_ROOT\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera PROJECT_DIR\u003d/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera /Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libuvc_static.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libuvc_static.a"
+    }
+  }
+}

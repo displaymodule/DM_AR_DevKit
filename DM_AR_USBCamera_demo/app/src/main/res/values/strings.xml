@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">USBCamera</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DisplayModule AR Devkit demo</string>
+    <string name="permission_denied">Permission Denied!</string>
+</resources>

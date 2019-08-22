@@ -1,0 +1,53 @@
+{
+  "buildFiles": [
+    "E:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Android.mk",
+    "E:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003dE:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\lib PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo PROJECT_DIR\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera clean"
+  ],
+  "libraries": {
+    "UVCCamera-debug-arm64-v8a": {
+      "artifactName": "UVCCamera",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003dE:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\lib -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo PROJECT_DIR\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera E:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libUVCCamera.so",
+      "abi": "arm64-v8a",
+      "output": "E:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libUVCCamera.so"
+    },
+    "jpeg-turbo1500-debug-arm64-v8a": {
+      "artifactName": "jpeg-turbo1500",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003dE:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\lib -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo PROJECT_DIR\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera E:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libjpeg-turbo1500.so",
+      "abi": "arm64-v8a",
+      "output": "E:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libjpeg-turbo1500.so"
+    },
+    "jpeg-turbo1500_static-debug-arm64-v8a": {
+      "artifactName": "jpeg-turbo1500_static",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003dE:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\lib -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo PROJECT_DIR\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera E:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libjpeg-turbo1500_static.a",
+      "abi": "arm64-v8a",
+      "output": "E:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libjpeg-turbo1500_static.a"
+    },
+    "uvc-debug-arm64-v8a": {
+      "artifactName": "uvc",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003dE:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\lib -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo PROJECT_DIR\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera E:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libuvc.so",
+      "abi": "arm64-v8a",
+      "output": "E:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libuvc.so"
+    },
+    "usb100_static-debug-arm64-v8a": {
+      "artifactName": "usb100_static",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003dE:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\lib -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo PROJECT_DIR\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera E:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libusb100_static.a",
+      "abi": "arm64-v8a",
+      "output": "E:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libusb100_static.a"
+    },
+    "uvc_static-debug-arm64-v8a": {
+      "artifactName": "uvc_static",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003dE:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\lib -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo PROJECT_DIR\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera E:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libuvc_static.a",
+      "abi": "arm64-v8a",
+      "output": "E:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libuvc_static.a"
+    },
+    "usb100-debug-arm64-v8a": {
+      "artifactName": "usb100",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003dE:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\lib -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo -j8 -j8 PROJECT_ROOT\u003dE:\\DM_AR_USBCamera_demo PROJECT_DIR\u003dE:\\DM_AR_USBCamera_demo\\libuvccamera E:/DM_AR_USBCamera_demo/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libusb100.so",
+      "abi": "arm64-v8a",
+      "output": "E:\\DM_AR_USBCamera_demo\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libusb100.so"
+    }
+  }
+}

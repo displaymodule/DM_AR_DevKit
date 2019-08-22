@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/connectDevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect Device"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarText2"
+                android:text="lu:128" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lum"
+                android:max="255"
+                android:min="0"
+                android:progress="128"
+                />
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/lum120"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="120"
+            android:onClick="onLumButtonClick"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/lum300"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="300"
+            android:onClick="onLumButtonClick"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/lum500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="500"
+            android:onClick="onLumButtonClick"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/lum1500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1500"
+            android:onClick="onLumButtonClick"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/lum3000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3000"
+            android:onClick="onLumButtonClick"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/screenonoff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Screen On / Off"
+            android:onClick="onTurnOnOffButtonClick"
+            android:background="@color/colorPrimary"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/rotation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rotation Change"
+            android:onClick="onRotationButtonClick"
+            android:background="@color/colorPrimary"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/cubedemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sensor Demo"
+            android:onClick="onCubeDemoButtonClick"
+            android:background="@color/colorPrimary"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            app:srcCompat="@drawable/displaymodule" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

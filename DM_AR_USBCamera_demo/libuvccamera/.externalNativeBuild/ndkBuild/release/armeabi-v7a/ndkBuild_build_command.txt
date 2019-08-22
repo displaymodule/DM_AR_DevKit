@@ -1,0 +1,24 @@
+Executable : /Users/zhuijunbao/Library/Android/sdk/ndk-bundle/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/src/main/jni/Application.mk
+APP_ABI=armeabi-v7a
+NDK_ALL_ABIS=armeabi-v7a
+NDK_DEBUG=0
+APP_PLATFORM=android-26
+NDK_OUT=/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera/build/intermediates/ndkBuild/release/lib
+-j8
+-j8
+PROJECT_ROOT=/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera
+-j8
+-j8
+PROJECT_ROOT=/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera
+PROJECT_DIR=/Users/zhuijunbao/Workspace/AR_Glass/DM_AR_USBCamera/libuvccamera
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
