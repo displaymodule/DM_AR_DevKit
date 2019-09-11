@@ -77,6 +77,7 @@ public class UsbService extends AbstractService {
     private void searchUsb() {
         int MCU_PID = 0x3333;
         int MCU_VID = 0x533;
+        int MCU_VID_V2=0x1bbb;
         Log.e(TAG, "start search");
         if (isReading) {
             return;
@@ -89,7 +90,7 @@ public class UsbService extends AbstractService {
             int vid = device.getVendorId();
             int pid = device.getProductId();
             Log.e(TAG, "initDevice: pid = " + pid + ", vid = " + vid);
-            if (MCU_PID == pid && MCU_VID == vid) {
+            if (MCU_PID == pid && (MCU_VID == vid||MCU_VID_V2==vid)) {
                 Toast.makeText(this, "AR device detected", Toast.LENGTH_LONG).show();
                 if (mUsbManager.hasPermission(device)) {
                     initDevice(device);

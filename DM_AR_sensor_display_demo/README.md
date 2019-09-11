@@ -3,14 +3,22 @@ A simple sample to show how to control DM AR glasses and access the Sensor
 
 
 ## Version Notes
-Drive board version 1.0
+Driver board version 1.0
+Driver board version 2.0 updating
 
 ## API Notes
 AR Glass development kit get sensor data and control display via USB communication with STM32.
 
 V1.0 version's USB device vendor id is 0x0533,
+V2.0 version's USB device vendor id is 0x1BBB
 
 Product id is 0x3333
+
+compatible V1.0 and V2.0 as below in searchUsb() function.
+
+```java
+(MCU_PID == pid && (MCU_VID == vid||MCU_VID_V2==vid))
+```
 
 ## Sensor Demo
 we show an example how to get Gyroscope data and acordingly render the cube rotation (see CalibratedGyroscopeProvider.java).
