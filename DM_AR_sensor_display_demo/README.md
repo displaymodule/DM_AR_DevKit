@@ -4,7 +4,7 @@ A simple sample to show how to control DM AR glasses and access the Sensor
 
 ## Version Notes
 Driver board version 1.0
-Driver board version 2.0 updating
+Driver board version 2.0 updating.
 
 ## API Notes
 AR Glass development kit get sensor data and control display via USB communication with STM32.
