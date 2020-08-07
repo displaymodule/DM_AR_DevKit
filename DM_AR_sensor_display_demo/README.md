@@ -22,7 +22,7 @@ compatible V1.0 and V2.0 as below in searchUsb() function.
 ```
 
 ## Sensor Demo
-we show an example how to get Gyroscope data and acordingly render the cube rotation (see CalibratedGyroscopeProvider.java).
+we show an example how to get Gyroscope data and accordingly render the cube rotation (see CalibratedGyroscopeProvider.java).
 
 In the same time, we also provide accelerometer and compass sensor fusion and render the cube (see AccelerometerCompassProvider.java)
 
