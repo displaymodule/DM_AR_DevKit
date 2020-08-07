@@ -10,7 +10,7 @@ Driver board version 2.0 updating
 AR Glass development kit get sensor data and control display via USB communication with STM32.
 
 * V1.0 version's USB device vendor id is 0x483,
-* V2.0 version's USB device vendor id is 0x483
+* V2.0 version's USB device vendor id is 0x483,
 
 Product id is 0x5750
 
