@@ -5,7 +5,7 @@ A simple sample to show how to control DM AR glasses's USB Camera and preview on
 
 ## API Notes
 AR Glass development kit camera is a pure UVC (USB video class) camera.
-The USB device vendor id is 0x0EDC, product id is 0x3080
+The USB device vendor id is 0x483, product id is 0x5750
 
 Developer can ref to the open source project UVCCamera from
 (github: https://github.com/saki4510t/UVCCamera)
